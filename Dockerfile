@@ -4,7 +4,7 @@ WORKDIR /Tarugs
 
 COPY requirements.txt ./
 
-RUN pip3 install -r requirements.txt
+RUN pip3 install -U pip && pip3 install -U -r requirements.txt
 
 COPY . .
 
