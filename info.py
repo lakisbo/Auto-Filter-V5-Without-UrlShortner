@@ -46,7 +46,7 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files12')
 # Channel Button Links
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/CyniteSupport')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/CyniteBackup')
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', CyniteSupport')
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'CyniteSupport')
 MSG_ALRT = environ.get('MSG_ALRT', 'Share and Support Us')
 
 # Custom Chats
